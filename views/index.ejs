@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="kav">
+      <h1><%= myheading %></h1>
+      <h3><%= detail %></h3>
+    </div>
+
+    <div class="table">
+     <h2><table>
+        <% topic.forEach((name) => { %>
+        <tr>
+      
+          <td>
+            <%= name.id %>
+
+          </td>
+
+          <td>
+            <%= name.Term %>
+
+          </td>
+
+          <td>
+            <%= name.Description %>
+
+          </td>
+
+          <td>
+            <%= name.Ref %>
+
+          </td>
+          
+
+        </tr>
+      <% }) %>
+      </table> </h2>
+    </div>
+    <!-- <h1><%= title %></h1>
+    <p>Welcome to lol <%= title %> <%= myheading %></p> -->
+  </body>
+</html>

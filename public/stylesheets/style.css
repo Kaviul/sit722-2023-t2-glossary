@@ -1,0 +1,56 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: antiquewhite;
+  
+}
+
+a {
+  color: #00B7FF;
+}
+
+.kav{
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  height: auto;
+  width: 1050px;
+  border: 3px solid green;
+  padding: 2px;
+  float: center;
+  text-align: center;
+}
+
+.table{
+  
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+  height: auto;
+  width: 50%;
+  border: 3px solid antiquewhite;
+  padding: 2px; 
+  
+}
+
+table {
+  border: 1px solid black;
+  height: auto;
+  width: 250px;
+  background-color: azure;
+  font: 15px 'Times New Roman';
+  text-align: center;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(124, 214, 230);
+
+}
+
